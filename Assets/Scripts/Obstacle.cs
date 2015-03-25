@@ -2,12 +2,12 @@
 using System.Collections;
 
 public class Obstacle : MonoBehaviour {
-	static float obstacleMinSpeed = 0.1f;
-	static float obstacleMaxSpeed = 3;
-	static float obstacleMinRadius = 40;
-	static float obstacleMaxRadius = 200;
-	static int obstacleSpawnPeriodMin = (int) (60000000 / (float) Controller.screenSize); //60; 
-	static int obstacleSpawnPeriodMax = (int) (300000000 / (float) Controller.screenSize);//300;
+	public static float obstacleMinSpeed = 0.1f;
+	public static float obstacleMaxSpeed = 3;
+	public static float obstacleMinRadius = 40;
+	public static float obstacleMaxRadius = 200;
+	public static int obstacleSpawnPeriodMin = (int) (60000000 / (float) Controller.screenSize); //60; 
+	public static int obstacleSpawnPeriodMax = (int) (300000000 / (float) Controller.screenSize);//300;
 	// Use this for initialization
 	void Start () {
 	
